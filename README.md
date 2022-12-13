@@ -2,7 +2,11 @@
 
 JavaScript Tips and Tricks
 
-## Question 01
+### Question 01
 
-log(null == undefined);// True
-log(null === undefined);// False
+```javascript
+log(null == undefined);
+Ans: True;
+log(null === undefined);
+Ans: False;
+```
