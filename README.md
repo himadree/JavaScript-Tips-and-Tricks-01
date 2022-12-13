@@ -36,7 +36,7 @@ log(arr2.flat(2));
 //output: [0, 1, 2, [3, 4]]
 ```
 
-### Remove falsy value from ay array
+### Remove falsy value from any array
 
 `falsy value: false, null, NaN, undefine, 0, ''`
 
@@ -46,4 +46,11 @@ let fruits = misArray.filter(Boolean);
 log(fruits);
 ```
 
-### What is Hoisting
+### Convart any value to boolean
+
+```javascript
+log(!!"Hello World"); //true
+log(!!1); //true
+log(!!0); //false
+log(!!undefined); //false
+```
