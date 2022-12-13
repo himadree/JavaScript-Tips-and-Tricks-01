@@ -35,3 +35,15 @@ const arr2 = [1, 2, 3, [[[4, 5]]]];
 log(arr2.flat(2));
 //output: [0, 1, 2, [3, 4]]
 ```
+
+### Remove falsy value from ay array
+
+`falsy value: false, null, NaN, undefine, 0, ''`
+
+```javascript
+let misArray = ["apple", "", NaN, "orange", null, undefined];
+let fruits = misArray.filter(Boolean);
+log(fruits);
+```
+
+### What is Hoisting
